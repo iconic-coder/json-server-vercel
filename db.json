@@ -1,9 +1,30 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "pets": [
+    {
+      "id": 1,
+      "name": "Max",
+      "breed": "Golden Retriever",
+      "age": "2 years",
+      "image": "https://images.unsplash.com/photo-1552053831-71594a27632d?w=300",
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Bella",
+      "breed": "Shorthair",
+      "age": "5 months",
+      "image": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=300",
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Lucy",
+      "breed": "Beagle",
+      "age": "1 year",
+      "image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=300",
+      "available": true
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "applications": [],
+  "surrenders": []
 }
